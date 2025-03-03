@@ -570,42 +570,41 @@ margin-left: 30px;
 .contact .title::before{
     width:210px;
 }
-.contact .contact-content {
-    display: flex;
-    flex-direction: column; /* Ensures elements are stacked properly */
-    gap: 15px;
-}
-
-.contact .contact-content .icons {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.contact .contact-content .row {
-    display: flex;
-    align-items: center;
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
-.contact .contact-content .row i {
+.contact .contact-content{
+    margin: 10px 0;
+    
+    display: flex;
+    text-align: justify;
+    align-items: center;
+}
+.contact .contact-content .icons{
+    align-items: center;
+    
+}
+.contact .contact-content .icons .row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 65px;
+    
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+    
+}
+.contact .contact-content .row i{
     font-size: 25px;
     color: #2541B2;
-    width: 40px; 
-    text-align: center;
 }
-
-.contact .contact-content .row .info {
-    margin-left: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact .contact-content .info .head {
+.contact .contact-content .info .head{
     font-weight: 500;
 }
-
-.contact .contact-content .info .sub-title {
+.contact .contact-content .info .sub-title{
     color: rgb(244, 237, 237);
 }
 
